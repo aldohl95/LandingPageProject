@@ -1,4 +1,131 @@
-*{
-    color : purple;
+html,body{
+    margin: 0px;
+    padding: 0px;
+}
+.firstsection{
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+    font-family: Roboto;
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+    display: flex;
+    color: white;
+    padding-top: 0px;
+    margin-top: 0px;
+    margin-left: 350px;
+}
+.header-links{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    font-size: 12px;
+    padding-top: 0px;
+    margin-right: 400px;
+    margin-left: auto;
+}
+.logomain{
+    display: flex;
+    padding: 60px;
+}
+.logotext{
+    color: white;
+    max-width: 300px;
+    padding-left: 285px;
+}
+.logo2{
+    padding-top: 20px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    font-weight: bold;
+    font-size: 18px;
+}
+.subtext{
+    padding-top: 0px;
+    margin-top: 0px;
+    font-size: 12px;
+}
+
+
+#first{
+    width: 400px;
+    height: 200px;
+    margin-right: 400px;
+    margin-left: auto;
+}
+.secondheader{
+    text-align: center;
+    padding-top: 10px;
+}
+.picture{
+    width:200px;
+    height:200px;
+}
+figcaption{
+    text-wrap: balance;
+    max-width: 200px;
+}
+.images{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 80px;
+}
+.thirdsection{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    background-color: #E5E7EB;
+    flex-direction: column;
+
+}
+
+.quote{
+    padding-top: 70px;
+    text-wrap: wrap;
+    font-size: 36px;
+    font-weight: light italic;
+    max-width: 800px;
+    margin: auto;
+
+}
+.author{
+    margin-right: 460px;
+    margin-left: auto;
+    padding-bottom: 30px;
+}
+.fs1{
+    display: flex;
+    background-color: #3882F6;
+    max-width: 900px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.call{
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+}
+.buttontwo{
+    background-color: #3882F6;
+    border-color: white;
+    color: white;
+    margin-right: 60px;
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
     
+}
+.subfs{
+    margin-top: 0px;
+    padding-top: 0px;
+    color: white;
+}
+.calllogo{
+    color: white;
+    font-weight: 900;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
 }
